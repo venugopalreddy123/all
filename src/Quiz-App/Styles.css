@@ -1,0 +1,47 @@
+.answers .correct,
+.answers .correct:hover {
+  background-color: green;
+  border-left: 5px solid greenyellow;
+  color: #ffffff;
+}
+.answers .incorrect,
+.answers .incorrect:hover {
+  background-color: red;
+  border-left: 5px solid rgb(219, 119, 119);
+  color: #ffffff;
+}
+.nexts {
+  background-color: chartreuse;
+  width: 60px;
+  height: 50px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  float: right;
+  font-size: 15px;
+}
+.prevs {
+  background-color: peru;
+  width: 90px;
+  height: 50px;
+  font-size: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.answers li {
+  list-style: none;
+}
+.answers li li {
+  background-color: skyblue;
+  padding: 10px;
+  margin: 0 0 5px;
+  font-size: 20px;
+  border-left: 5px solid gray;
+  border-radius: 10px;
+  list-style: none;
+}
+.answers li :hover {
+  cursor: pointer;
+  background-color: rgb(117, 122, 117);
+}

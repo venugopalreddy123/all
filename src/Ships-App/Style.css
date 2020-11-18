@@ -1,0 +1,14 @@
+.card {
+  background-color: gold;
+  box-shadow: 2px 2px 2px 5px gray;
+  width: 350px;
+  border-radius: 10px;
+  margin: 30px;
+  display: inline-block;
+}
+.card img {
+  height: 400px;
+  width: 350px;
+  padding: 5px auto;
+  border-radius: 10px;
+}

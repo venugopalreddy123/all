@@ -1,0 +1,45 @@
+.header {
+  text-align: center;
+  font-size: 20px;
+  color: blueviolet;
+}
+.search {
+  text-align: center;
+}
+.search input {
+  height: 35px;
+  width: 500px;
+  background-color: burlywood;
+  color: #ffffff;
+  font-size: 20px;
+  border-radius: 10px;
+  
+}
+.search button {
+  height: 40px;
+  width: 70px;
+  background-color: green;
+  padding: 5px;
+  border-radius: 10px;
+  margin: 5px;
+}
+.main-cont {
+  text-align: center;
+}
+.main-cont div {
+  text-align: start;
+}
+.details {
+  width: 350px;
+  height: 450px;
+  box-shadow: 2px 2px 2px 4px gray;
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+.details img {
+  width: 98%;
+  height: 300px;
+}
